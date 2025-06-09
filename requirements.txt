@@ -1,0 +1,18 @@
+# UIT Survey Automation Tool - Dependencies
+# Python 3.8+ required
+
+# GUI Framework
+PyQt5==5.15.10
+
+# Web Automation
+selenium==4.15.2
+
+# Microsoft Edge WebDriver (will be downloaded automatically by selenium-manager)
+# Ensure Microsoft Edge browser is installed on the system
+
+# Additional dependencies for better performance and stability
+requests==2.31.0
+urllib3==2.0.7
+
+# For packaging (optional, if you want to create executable)
+# pyinstaller==6.1.0
